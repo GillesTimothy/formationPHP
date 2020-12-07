@@ -16,7 +16,7 @@ if($req->rowCount() != 0){
     //Verifie si le password correspond bien à celui de la db
     if($isPasswordCorrect){
         session_start();
-        $_SESSION['id'] = $row['id'];
+        $_SESSION['id'] = $row['id'];   
         $_SESSION['pseudo'] = $row['pseudo'];
         echo 'Vous êtes connecté !';
     }

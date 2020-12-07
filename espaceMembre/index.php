@@ -18,6 +18,8 @@
 
         if($_SESSION != null){
             echo 'Bienvenue : ' . $_SESSION['pseudo'];
+            echo '<p></p>';
+            echo 'le site est tout a toi !!!';
         }
         ?>
         </body>
